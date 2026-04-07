@@ -1,0 +1,18 @@
+{"timestamp":"00:00:04.467","source":"Server","level":"LOG","message":"It looks like you're trying to use TypeScript but do not have the required package(s) installed.\nInstalling dependencies\n\nIf you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).\n"}
+{"timestamp":"00:00:04.545","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:04.546","source":"Server","level":"LOG","message":"Installing devDependencies (npm):"}
+{"timestamp":"00:00:04.546","source":"Server","level":"LOG","message":"- typescript"}
+{"timestamp":"00:00:04.546","source":"Server","level":"LOG","message":"- @types/react"}
+{"timestamp":"00:00:04.546","source":"Server","level":"LOG","message":"- @types/node"}
+{"timestamp":"00:00:04.546","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.822","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.827","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.827","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and created a tsconfig.json file for you."}
+{"timestamp":"00:00:06.964","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:32.124","source":"Server","level":"ERROR","message":"Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor"}
+{"timestamp":"00:00:32.159","source":"Server","level":"ERROR","message":"⨯ Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor"}
+{"timestamp":"00:00:32.176","source":"Server","level":"ERROR","message":"⨯ Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor"}
+{"timestamp":"00:00:33.211","source":"Browser","level":"ERROR","message":"uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor"}
+{"timestamp":"00:00:33.238","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor\\u001b[39m\\n\\u001b[31m    at LinkComponent (file:///Users/maxime/Documents/Dev apps/ImmoInvest/.next/dev/server/chunks/ssr/node_modules_0hoxxrh._.js:3251:45)\\u001b[39m\""}
+{"timestamp":"00:00:33.239","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.\nLearn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor\u001b[39m\n\u001b[31m    at LinkComponent (file:///Users/maxime/Documents/Dev apps/ImmoInvest/.next/dev/server/chunks/ssr/node_modules_0hoxxrh._.js:3251:45)\u001b[39m"}
+{"timestamp":"00:00:58.579","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}

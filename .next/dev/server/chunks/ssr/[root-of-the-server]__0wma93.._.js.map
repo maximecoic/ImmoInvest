@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/maxime/Documents/Dev%20apps/ImmoInvest/src/pages/index.tsx"],"sourcesContent":["import React from 'react';\nimport Link from 'next/link';\n\nconst Home: React.FC = () => {\n    return (\n        <div className=\"flex flex-col items-center justify-center h-screen text-center\">\n            <h1 className=\"text-5xl font-bold\">Welcome to InvestiSim</h1>\n            <p className=\"mt-4\">Your personal real estate investment simulator.</p>\n            <Link href=\"/simulator/input\" className=\"mt-6 bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-600\">\n                Start Simulation\n            </Link>\n        </div>\n    );\n};\n\nexport default Home;"],"names":["Home","className","href"],"mappings":";;;;;AACA;;;AAEA,MAAMA,OAAiB;IACnB,qBACI,qKAAC;QAAIC,WAAU;;0BACX,qKAAC;gBAAGA,WAAU;0BAAqB;;;;;;0BACnC,qKAAC;gBAAEA,WAAU;0BAAO;;;;;;0BACpB,qKAAC,gIAAI;gBAACC,MAAK;gBAAmBD,WAAU;0BAAqE;;;;;;;;;;;;AAKzH;uCAEeD"}}]
+}

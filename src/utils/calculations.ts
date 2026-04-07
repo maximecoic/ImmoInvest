@@ -1,0 +1,1 @@
+// Add investment scenario calculation functions here as app features expand.

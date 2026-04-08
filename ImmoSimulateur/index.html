@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImmoSimulateur - Comparez vos investissements immobiliers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" class="nav-link">Accueil</a></li>
+                <li><a href="/input" class="nav-link">Simulateur</a></li>
+                <li><a href="/educational" class="nav-link">Éducation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Bienvenue sur ImmoSimulateur</h1>
+        <p>Comparez facilement vos options d'investissement immobilier en quelques clics.</p>
+<button id="start-simulation" class="button" aria-label="Commencez la simulation">Commencez la simulation</button>
+<button id="learn-more" class="button" aria-label="En savoir plus">En savoir plus sur les investissements</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ImmoSimulateur. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        document.getElementById("start-simulation").onclick = function() {
+            window.location.href = "/input";
+        };
+        document.getElementById("learn-more").onclick = function() {
+            window.location.href = "/educational";
+        };
+    </script>
+</body>
+</html>

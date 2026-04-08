@@ -1,0 +1,22 @@
+{
+  "investments": [
+    {
+      "type": "LMNP",
+      "description": "Location meublé non professionnel",
+      "pros": ["Déductions fiscales", "Revenu régulier"],
+      "cons": ["Efforts de gestion", "Régulations"]
+    },
+    {
+      "type": "Denormandie",
+      "description": "Aide à l'investissement pour les bâtiments anciens",
+      "pros": ["Réductions fiscales", "Aide à la rénovation"],
+      "cons": ["Restrictions de localisation"]
+    },
+    {
+      "type": "Deficit Foncier",
+      "description": "Déficit fiscal de l'immobilier",
+      "pros": ["Économies fiscales", "Avantages pour propriétaires"],
+      "cons": ["Calculs complexes"]
+    }
+  ]
+}
